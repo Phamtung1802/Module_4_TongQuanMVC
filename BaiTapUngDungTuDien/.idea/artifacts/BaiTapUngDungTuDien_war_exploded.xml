@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="BaiTapUngDungTuDien:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/BaiTapUngDungTuDien_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="BaiTapUngDungTuDien/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="BaiTapUngDungTuDien" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="application" name="taglibs-standard-impl-1.2.5" />
+          <element id="library" level="application" name="spring-aop-5.2.8.RELEASE" />
+          <element id="library" level="application" name="commons-logging-1.2" />
+          <element id="library" level="application" name="JavaX" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
